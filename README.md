@@ -146,7 +146,7 @@ AFCS-105/
 
 ### 펌웨어
 1. `FCS.ioc` → STM32CubeMX → Generate Code
-2. STM32CubeIDE → Release 빌드 (-Os)
+2. STM32CubeIDE → Release 빌드 (-O2)
 3. ST-LINK 플래시
 
 > Drivers/, Middlewares/는 .ioc에서 재생성되므로 레포에 미포함.

@@ -107,7 +107,7 @@ AFCS-105/
 |------|------|
 | 연산 방식 | HW FPU, 삼각함수 Q1.30 LUT |
 | RTOS | FreeRTOS CMSIS_V2, heap_4, 20KB |
-| 탄도 계산 성능 | ~3,300 cycles / 40μs (Release -Os) |
+| 탄도 계산 성능 | ~3,300 cycles / 40μs (Release -O2) |
 | 통신 | Rolling XOR + HW CRC-32 양방향 암호화 패킷 |
 | Flash 영속성 | Sector 7, 매직코드 + CRC-32 검증, dirty-check |
 | 방어 계층 | IWDG, Fault Handler, Stack Overflow Detection |
